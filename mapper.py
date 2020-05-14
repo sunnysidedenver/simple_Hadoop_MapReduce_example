@@ -7,7 +7,7 @@ stopwords = set(stop_words.ENGLISH_STOP_WORDS)
 # get all lines from stdin
 for line in sys.stdin:
     # remove leading and trailing whitespace
-    line = line.strip().lower().isalpha()
+    line = line.strip().lower()
 
     # split the line into words; splits on any whitespace
     words = line.split()
